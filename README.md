@@ -58,4 +58,7 @@ npm run dev
 * Lucide React para iconos
 * Componentes personalizados reutilizables para UI consistente
 
+
+## Link del despliegue
+- https://react-user-table-test-qnpx.vercel.app/
 ---
