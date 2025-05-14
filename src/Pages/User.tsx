@@ -84,8 +84,10 @@ export default function User() {
     fetchData();
   }, []);
 
-  // Filtrado de usuarios según el texto de búsqueda
-  const filteredUsers = users.filter((user) =>
+  // Filtrado de usuarios con status true y búsqueda
+const filteredUsers = users
+  .filter(user => user.status === true) // Solo activos
+  .filter(user =>
     `${user.firstName} ${user.lastName} ${user.email}`
       .toLowerCase()
       .includes(searchText)
