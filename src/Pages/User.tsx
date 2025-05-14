@@ -19,7 +19,7 @@ const columns: Column<UserField>[] = [
   {
     title: "Estado",
     key: "status",
-    render: (value: string | number | boolean, row: UserField) => {
+    render: (value: string | number | boolean) => {
       if (typeof value === "boolean") {
         return value ? (
           <span className="text-green-600 font-semibold">Activo</span>
