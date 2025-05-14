@@ -1,4 +1,4 @@
-import React, { ReactNode, ComponentProps } from 'react'; // Importa React, tipos y componentes necesarios
+import { ReactNode, ComponentProps } from 'react'; // Importa React, tipos y componentes necesarios
 import { motion } from 'framer-motion'; // Importa motion de framer-motion para animaciones
 
 // Definición de los props del componente ButtonGradient
